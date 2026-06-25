@@ -1,0 +1,27 @@
+@import "./theme/variables.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-foreground selection:bg-accent/20 selection:text-accent font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    user-select: text;
+  }
+  
+  /* Modern custom scrollbars for enterprise panels */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-lg transition-colors hover:bg-muted-foreground/30;
+  }
+}

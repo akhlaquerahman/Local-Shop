@@ -1,0 +1,44 @@
+{
+  "name": "local-shop-backend",
+  "version": "1.0.0",
+  "description": "Enterprise Backend for Local Shop Marketplace",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "tsc",
+    "seed:admin": "node src/scripts/seed-super-admin.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "@qdrant/js-client-rest": "^1.12.0",
+    "bcrypt": "^5.1.1",
+    "bullmq": "^4.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "imagekit": "^6.0.0",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0",
+    "slugify": "^1.6.9",
+    "socket.io": "^4.7.2",
+    "swagger-ui-express": "^5.0.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.0"
+  }
+}

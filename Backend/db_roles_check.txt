@@ -1,0 +1,6 @@
+Total roles in DB: 5
+Role: Store Manager Shop: 6a2ea121028f5d76c9c29de6
+Role: Inventory Manager Shop: 6a2ea121028f5d76c9c29de6
+Role: Order Manager Shop: 6a2ea121028f5d76c9c29de6
+Role: Support Agent Shop: 6a2ea121028f5d76c9c29de6
+Role: Delivery Coordinator Shop: 6a2ea121028f5d76c9c29de6
